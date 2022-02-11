@@ -1571,37 +1571,37 @@ function prg(){
 
 	if [ "${mode}" == 'header' ];then
 			echo "header"
-			banner
+			#banner
             Header_Bypass
             exit 0
     elif [ "${mode}" == 'proto' ];then
 			echo "protocol"
-			banner
+			#banner
         	Protocol_Bypass
         	exit 0
 	elif [ "${mode}" == 'port' ];then
 			echo "port"
-			banner
+			#banner
         	Port_Bypass
         	exit 0
 	elif [ "${mode}" == 'HTTPmethod' ];then
 			echo "HTTPmethod"
-			banner
+			#banner
         	HTTP_Method_Bypass
         	exit 0
 	elif [ "${mode}" == 'encode' ];then
 			echo "encode"
-			banner
+			#banner
         	URL_Encode_Bypass
         	exit 0
 	elif [ "${mode}" == 'sqli' ];then
 			echo "SQLi"
-			banner
+			#banner
 			SQLi_libinjection
 			exit 0 
 	elif [ "${mode}" == 'exploit' ];then
 			echo "exploit"
-        	banner
+        	#banner
 			403bypass
         	exit 0
 	fi
